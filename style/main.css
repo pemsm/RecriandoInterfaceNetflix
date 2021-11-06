@@ -2,6 +2,7 @@
     --vermelho: #e50914;
     --preto: #141414;
     --branco: #fff;
+    --cinza: #aaa;
 }
 
 *{
@@ -10,21 +11,83 @@
     box-sizing: border-box;
 }
 
-a{
-    color: var(--branco);
-}
+
+/*ELEMENTOS BASE*/
 
 body{
     background-color: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: var(--branco);
 }
 
 header .container{
     border: 1px solid --branco;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo{
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+/*MANGA PRINCIPAL*/
+
+.manga-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/onepunchmancover.jpg');
+    
+    height: 600px;
+    background-size: cover;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.manga-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+}
+
+.botao-manga-principal{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer; 
+    transition: .5s ease all;
+       
+}
+
+.botao-manga-principal:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao-manga-principal i{
+    margin-right: 8px;
 }
