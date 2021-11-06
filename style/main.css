@@ -34,6 +34,13 @@ header .logo{
     font-size: 40px;
 }
 
+header nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 header nav a{
     text-decoration: none;
     color: var(--cinza);
@@ -51,7 +58,7 @@ header nav a:hover{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/onepunchmancover.jpg');
     
-    height: 600px;
+    height: 800px;
     background-size: cover;
 
     display:flex;
@@ -110,4 +117,19 @@ header nav a:hover{
 
 .carrosel-mangas{
     margin-top: 5px;
+}
+
+.footer{
+    background-color: rgb(83, 77, 77);
+    height: 500px;
+}
+
+.icones{
+    width: 200px;
+}
+
+.opcoes a{
+
+    text-decoration: none;
+    color: #fff;
 }
