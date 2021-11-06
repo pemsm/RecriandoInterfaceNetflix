@@ -16,8 +16,9 @@
 
 body{
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--branco);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header .container{
@@ -48,7 +49,7 @@ header nav a:hover{
 
 .manga-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/onepunchmancover.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/onepunchmancover.jpg');
     
     height: 600px;
     background-size: cover;
@@ -90,4 +91,23 @@ header nav a:hover{
 
 .botao-manga-principal i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 22px;
+}
+
+.manga-principal .container{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.box-manga{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-mangas{
+    margin-top: 5px;
 }
