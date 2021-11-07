@@ -12,7 +12,12 @@
 }
 
 
-/*ELEMENTOS BASE*/
+/*NAV*/
+
+.img-perfil{
+    width: 25px;
+    border-radius: 5px;
+}
 
 .categorias{
     display: flex;
@@ -151,17 +156,62 @@ header nav a:hover{
     margin-top: 5px;
 }
 
+/*FOOTER*/
+
 .footer{
-    background-color: rgb(83, 77, 77);
+    background-color: var(--preto);
     height: 500px;
 }
 
-.icones{
-    width: 200px;
+.footer .icones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 275px;
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 250px;
+}
+
+.footer .icones a{
+    font-size: 35px;
+    color: grey;
 }
 
 .opcoes a{
 
     text-decoration: none;
     color: #fff;
+    size: 50px;
+}
+
+.footer .opcoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    padding: 30px;
+}
+
+.footer .opcoes a:hover{
+    text-decoration: underline white;
+}
+
+.opcoes-texto a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.posicao-botao button{
+    margin-left: 285px;
+    background-color: var(--preto);
+    border: none;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 15px;
+
+    cursor: pointer; 
+    transition: .5s ease all;
 }
