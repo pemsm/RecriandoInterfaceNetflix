@@ -105,6 +105,11 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    cursor: pointer;
+}
+
+.manga-principal:hover{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/23.png.png');
 }
 
 .manga-principal .descricao{
@@ -129,6 +134,7 @@ header nav a:hover{
 
     cursor: pointer; 
     transition: .5s ease all;
+    border-radius: 5px;
        
 }
 
@@ -155,6 +161,43 @@ header nav a:hover{
 .carrosel-mangas{
     margin-top: 5px;
 }
+
+.carrosel-mangas{
+    cursor: pointer; 
+}
+
+.item{
+    transition: 0.5s;
+}
+
+.item:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 999;
+    transform: 0.5s;
+}
+
+
+/*.item:focus,
+.item:hover {
+    transform: scale(1.5);
+}
+
+.item {
+    position: relative;
+    display: block;
+    flex: 1 1 0px;
+    transition: transform 500ms;
+}
+
+.item img {
+    display: block;
+    max-width: 100%;
+}
+
+.item:hover ~ .item {
+    transform: translateX(25%);
+}*/
 
 /*FOOTER*/
 
