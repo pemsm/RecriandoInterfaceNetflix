@@ -4,7 +4,7 @@
 ## 💻 Projeto
 
 Projeto desenvolvido com base nas aulas do curso [Impulso React Web Developer
-][course], oferecido pela [Digital Inovation One][author].
+][course], oferecido pela [Digital Inovation One][author]. Nesta abordagem foi utilizado uma temática de Mangá com a interface do [Netflix][Netflix].
 
 ## 🛠 Tecnologias
 
@@ -16,7 +16,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 ## 📷 Screenshots
 
-  ![image](https://user-images.githubusercontent.com/26777235/140832865-ab2cf87e-05a5-441b-9465-f710b8a4629f.png)
+  ![image](https://user-images.githubusercontent.com/26777235/140832920-cf3e6265-d9c6-450d-9262-81ce20bdd9b0.png)
 
 
 [course]: https://web.digitalinnovation.one/track/impulso-react-web-developer?tab=path
@@ -24,3 +24,4 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 [HTML]: https://www.w3schools.com/html/
 [CSS]: https://www.w3schools.com/css/
 [JasvaScript]: https://www.javascript.com/
+[Netflix]: https://www.netflix.com
