@@ -12,13 +12,16 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [HTML][HTML]
 - [CSS][CSS]
-- [JAVASCRIPT][JAVASCRIPT]
+- [JasvaScript][JAVASCRIPT]
 
 ## 📷 Screenshots
 
 <kbd>
-  <img src=".github/screenshot.png" alt="Project Manager" width="500" />
+  ![image](https://user-images.githubusercontent.com/26777235/140832812-07e80e9a-0d7c-4988-bc6a-d60c251b0032.png)
 </kbd>
 
 [course]: https://web.digitalinnovation.one/track/impulso-react-web-developer?tab=path
 [author]: https://digitalinnovation.one/
+[HTML]: https://www.w3schools.com/html/
+[CSS]: https://www.w3schools.com/css/
+[JasvaScript]: https://www.javascript.com/
