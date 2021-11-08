@@ -17,6 +17,14 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 ## 📷 Screenshots
 
   ![image](https://user-images.githubusercontent.com/26777235/140832920-cf3e6265-d9c6-450d-9262-81ce20bdd9b0.png)
+  
+  ![image](https://user-images.githubusercontent.com/26777235/140833133-7365a77c-5af8-43eb-9fe2-630bc091b70d.png)
+  
+  ![image](https://user-images.githubusercontent.com/26777235/140833198-b2f75267-4217-4888-8d3c-770f76ea42fc.png)
+  
+  ![image](https://user-images.githubusercontent.com/26777235/140833230-9184ba72-38da-4048-9dd7-a4622ac3d886.png)
+
+
 
 
 [course]: https://web.digitalinnovation.one/track/impulso-react-web-developer?tab=path
