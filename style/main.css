@@ -96,7 +96,7 @@ header nav a:hover{
 
 .manga-principal{
     font-size: 16px;
-    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/onepunchmancover.jpg');
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/onepunchmancover.jpg');
     
     height: 800px;
     background-size: cover;
@@ -109,7 +109,7 @@ header nav a:hover{
 }
 
 .manga-principal:hover{
-    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/23.png.png');
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/23.png.png');
 }
 
 .manga-principal .descricao{
