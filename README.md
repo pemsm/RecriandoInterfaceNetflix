@@ -12,7 +12,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
 
 - [HTML][HTML]
 - [CSS][CSS]
-- [JasvaScript][JAVASCRIPT]
+- [JasvaScript][JasvaScript]
 
 ## 📷 Screenshots
 
