@@ -8,7 +8,7 @@ Projeto desenvolvido com base nas aulas do curso [Impulso React Web Developer
 
 ## 🛠 Tecnologias
 
-As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+As seguintes tecnologias que foram utilizadas no desenvolvimento do projeto:
 
 - [HTML][HTML]
 - [CSS][CSS]
